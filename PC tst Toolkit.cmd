@@ -161,13 +161,13 @@ echo Option 8 - Create Desktop Icons (This PC, Control Panel, User Files, Window
 echo Creating desktop icons...
 
 :: Creating shortcut for This PC
-cscript //NoLogo C:\Users\Ghost\cccccccccccccc\Bin\ThisPC.vbs
+cscript //NoLogo ThisPC.vbs
 
 :: Creating shortcut for Control Panel
-cscript //NoLogo C:\Users\Ghost\cccccccccccccc\Bin\ControlPanel.vbs
+cscript //NoLogo ControlPanel.vbs
 
 :: Creating shortcut for User Files
-cscript //NoLogo C:\Users\Ghost\cccccccccccccc\Bin\UserFiles.vbs
+cscript //NoLogo UserFiles.vbs
 
 
 echo Desktop icons created.
